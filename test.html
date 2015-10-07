@@ -11,11 +11,25 @@ p    {color:Yellow}
 
 <h1>My First Webpage</h1>
 
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
+<button onclick="myFunction()">Contact Details</button>
 
 <p id="demo"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Sandip Patel"+"<br /> "+"Email : spatel@my.harrisburgu.edu"+ "<br /> "+"Phone : (201)748-9679";
+}
+</script>
+
+<button onclick="myEducationdetails()">Academic Details</button>
+
+<p1 id=("demo1")></p1>
+
+<script>
+function myEducationdetails() {
+    document.getElementById("demo1").innerHTML = "Completed Course" + "<br /> "+ "ISEM 501 "+ "<br /> "+ "ISEM 500";
+}
+</script>
 
 </body>
 </html> 
